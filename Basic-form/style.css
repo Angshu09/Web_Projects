@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600&display=swap');
+/* font-family: 'Mulish', sans-serif; */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Mulish', sans-serif;
+    
+}
+
+.form-span{
+    color: red;
+}
+
+.main-container{
+    background: linear-gradient(to top left, rgb(193, 193, 197), rgb(240, 240, 246) );
+    width: 100vw;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.form-container{
+    width: 450px;
+   padding: 30px;
+   background-color: white;
+   border-radius: 10px;
+   box-shadow: 0 0 3px black;
+}
+
+.header{
+    padding-bottom: 20px;
+    text-align: center;
+    padding-inline: 20px;
+    color: #364764;
+}
+
+.main p{
+    margin-top: 23px;
+}
+
+.main p label{
+    display: block;
+}
+
+.main form p input{
+    width: 100%;
+    border: none;
+    background-color: #f3f8fe;
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 8px;
+    color: #000000;
+}
+
+.footer{
+    margin-top: 23px;
+    font-size: 12px;
+}
+
+.footer a{
+    text-decoration: none;
+}
+
+
+
+.main form :nth-child(5) input{
+  width: 40%;
+  background-color: #929698;
+  color: white;
+  text-align: center;
+}
+
+@media screen and (max-width: 395px){
+    h3{
+        font-size: 1rem;
+    }
+
+    .main form p label, input{
+        font-size: 0.7rem;
+    }
+
+    .main form :nth-child(5) input{
+        width: 100%;
+    }
+
+    .footer{
+        font-size: 0.5rem;
+    }
+
+    .form-container{
+        padding: 12px;
+    }
+}
