@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 1440 673" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="a" x1="1" x2="-.074" y1=".5" y2=".5">
+<stop stop-color="#001a54" offset="0"/>
+<stop stop-color="#001d59" offset=".222"/>
+<stop stop-color="#002779" offset=".488"/>
+<stop stop-color="#001a50" offset="1"/>
+</linearGradient>
+<clipPath id="b">
+<path transform="translate(-13664 -13010)" d="M0 0h1440v673H0z" fill="#fff" stroke="#707070" data-name="Rectangle 6342"/>
+</clipPath>
+<style>.cls-5{fill:#0041ca}</style>
+</defs>
+<g transform="translate(13664 13010)" clip-path="url(#b)" data-name="Mask Group 761">
+<g data-name="Group 21876">
+<path transform="translate(-13679 -13039)" d="M0 0h1774v676H0z" fill="url(#a)" data-name="Rectangle 6341"/>
+<g transform="translate(-13591 -12937)" opacity=".535" data-name="Group 21875">
+<path class="cls-5" transform="translate(709)" d="M35.709 0a12 12 0 0 1 10.476 6.146l7.544 13.5a12 12 0 0 1 0 11.708l-7.544 13.5A12 12 0 0 1 35.709 51H21.291a12 12 0 0 1-10.475-6.146l-7.544-13.5a12 12 0 0 1 0-11.708l7.544-13.5A12 12 0 0 1 21.291 0z" data-name="Polygon 204"/>
+<path class="cls-5" transform="translate(712 458)" d="M31.257 0A12 12 0 0 1 41.7 6.084l5.95 10.5a12 12 0 0 1 0 11.832l-5.95 10.5A12 12 0 0 1 31.257 45H19.743A12 12 0 0 1 9.3 38.916l-5.95-10.5a12 12 0 0 1 0-11.832l5.95-10.5A12 12 0 0 1 19.743 0z" data-name="Polygon 206"/>
+<path class="cls-5" d="M17.036 0a12 12 0 0 1 10.419 6.046l1.143 2a12 12 0 0 1 0 11.907l-1.143 2A12 12 0 0 1 17.036 28h-2.072a12 12 0 0 1-10.419-6.046l-1.143-2a12 12 0 0 1 0-11.907l1.143-2A12 12 0 0 1 14.964 0z" data-name="Polygon 207"/>
+<path class="cls-5" transform="translate(424 368)" d="M17.036 0a12 12 0 0 1 10.419 6.046l1.143 2a12 12 0 0 1 0 11.907l-1.143 2A12 12 0 0 1 17.036 28h-2.072a12 12 0 0 1-10.419-6.046l-1.143-2a12 12 0 0 1 0-11.907l1.143-2A12 12 0 0 1 14.964 0z" data-name="Polygon 208"/>
+<path class="cls-5" transform="translate(647 58)" d="M17.036 0a12 12 0 0 1 10.419 6.046l1.143 2a12 12 0 0 1 0 11.907l-1.143 2A12 12 0 0 1 17.036 28h-2.072a12 12 0 0 1-10.419-6.046l-1.143-2a12 12 0 0 1 0-11.907l1.143-2A12 12 0 0 1 14.964 0z" data-name="Polygon 209"/>
+<path class="cls-5" transform="translate(0 302)" d="M17.036 0a12 12 0 0 1 10.419 6.046l1.143 2a12 12 0 0 1 0 11.907l-1.143 2A12 12 0 0 1 17.036 28h-2.072a12 12 0 0 1-10.419-6.046l-1.143-2a12 12 0 0 1 0-11.907l1.143-2A12 12 0 0 1 14.964 0z" data-name="Polygon 210"/>
+</g>
+</g>
+</g>
+</svg>
