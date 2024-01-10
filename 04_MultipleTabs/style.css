@@ -1,0 +1,36 @@
+*{
+    padding: 0;margin: 0;
+    box-sizing: border-box;
+}
+
+.tabs-container{
+    height: 500px;
+    width: 100%;
+}
+
+.tabs-buttons{
+    height: 15%;
+
+}
+
+.tabs-buttons button{
+    height: 100%;
+    width: 25%;
+    float: left;
+    font-size: 18px;
+    border: none;
+}
+
+.tabs-buttons button:hover{
+    background-color: rgba(245, 223, 223, 0.884);
+}
+
+.tabs{
+    background-color: gray;
+    color: white;
+    height: 85%;
+    text-align: center;
+    padding-top: 80px;
+    display: none;
+    font-size: 20px;
+}

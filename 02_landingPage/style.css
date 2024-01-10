@@ -270,3 +270,77 @@ nav{
 .key-box h3{
     margin-top: 12px;
 }
+
+/* Key features end  */
+
+/* Slider section start */
+
+.slider-section{
+    overflow: hidden;
+    background-color: #f8f7f0;
+    padding: 30px 0;
+    white-space: nowrap;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.slider-logos{
+    animation: slide 35s infinite linear;
+    display: inline-block;
+}
+
+.slider-logos img{
+    height: 40px;
+    width: auto;
+    margin: 0 35px;
+}
+
+.slider-section:hover .slider-logos{
+    animation-play-state: paused;
+}
+
+@keyframes slide {
+
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+    
+}
+
+/* Slider ends  */
+
+/* service part start */
+
+.ser1{
+    max-width: 300px ;
+    padding: 31px 50px;
+    background-color: white;
+    color: var(--primary-text-color);
+}
+
+.service-section{
+    background-color: #f8f7f0;
+}
+
+/* service end */
+
+/* placement part start  */
+
+.placement-container{
+    text-align: center;
+}
+
+.placement-img{
+    margin-top: 3rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 45px;
+    padding-inline: 30px;
+}
+
+.placement-img img{
+    height: 35px;
+}
