@@ -34,6 +34,10 @@ a{
     align-items: center;
 }
 
+.highlight{
+    color: #ff2c3d;
+}
+
 
 /* Navbar */
 
@@ -83,7 +87,7 @@ nav{
     background-repeat: no-repeat;
     background-size: cover;
     height: 42rem;
-    overflow: hidden;
+    
 }
 
 .hero-container{
@@ -142,7 +146,7 @@ nav{
 .main form p input{
     width: 100%;
     border: none;
-    background-color: #f3f8fe;
+    background-color: #ffeaec;
     padding: 8px;
     border-radius: 5px;
     margin-top: 8px;
@@ -157,7 +161,7 @@ nav{
 
 .main form :nth-child(5) input{
   width: 40%;
-  background-color: #929698;
+  background-color: #ff2c3d;
   color: white;
   text-align: center;
 }
@@ -175,9 +179,9 @@ nav{
 }
 
 .course-overview-details{
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: normal;
-    flex-wrap: wrap;
+    gap: 1rem;
 }
 
 .details{
@@ -186,9 +190,83 @@ nav{
     background-color: white;
     border-radius: 8px;
     border: none;
-    max-width: 30%;
+    max-width: 400px;
+    box-shadow: 0 0 41px -28px #ff2c3d;
 }
 
 .details h2{
     margin-bottom: 1.3rem;
+}
+/* Course overview section end  */
+
+
+
+/* Key features section start  */
+
+.keyfeature-section{
+    background-color: #ffeaec;
+}
+
+.keyfeatures-container{
+    margin-top: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 6rem;
+}
+
+.keyfeatures-header{
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+}
+
+.keyfeatures-header p{
+    margin-top: 1.7rem;
+    font-size: 1.2rem
+}
+
+.keyfeatures-main{
+    width: 100%;
+    margin-top: 3rem;
+    gap: 1rem;
+    align-items: normal;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.logo1{
+    background-color: #0f8cff;
+}
+
+.logo2{
+    background-color: #ea576f;
+}
+
+.logo3{
+    background-color: #5cdb57;
+}
+
+.logo4{
+    background-color: #a768d7;
+}
+
+.logo5{
+    background-color: #4c96e5;
+}
+
+.logo6{
+    background-color: #fca733;
+}
+
+.key-box{
+    max-width: 360px;
+    text-align: center;
+    padding: 60px 50px;
+    color: white;
+    font-weight: bolder;
+    border-radius: 12px;
+}
+
+.key-box h3{
+    margin-top: 12px;
 }
