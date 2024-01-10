@@ -60,4 +60,60 @@
     .slider-logos img{
         height: 30px;
     }
+
+    .instructor-img-container{
+        flex-direction: column;
+    }
+
+    .instructor-img-div{
+        width: 100%;
+        display: flex;
+        gap: 8px;
+    }
+
+    .instructor-img{
+        width: 40%;
+    }
+
+    .instructor-description{
+        width: 60%;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .big-separation-container{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .primary-button{
+        width: 100%;
+    }
+
+    .nav-bar{
+        justify-content: space-between;
+    }
+
+
+    .nav-links{
+        flex-direction: column;
+        position: absolute;
+        background-color: #f8f7f0;
+        left: -100%;
+        top: 100%;
+        width: 100%;
+        padding-block: 20px;
+        transition: 0.2s ease-in;
+    }
+
+   .nav-links.active{
+        left: 0;
+   }
+
+
+    .hamburger{
+        display: inline;
+    }
+    
 }
+

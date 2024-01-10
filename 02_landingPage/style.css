@@ -17,6 +17,19 @@ a{
     text-decoration: none;
 }
 
+.primary-button{
+    background-color: #ff2c3d;
+    padding: 12px 29px;
+    border-radius: 8px;
+    color: white;
+    transition: 0.2s ease-in;
+    text-align: center;
+}
+
+.primary-button:hover{
+    background-color: #ce2f3c;
+}
+
 :root{
     --primary-text-color: #021028;
     --secondary-text-color:#52697c;
@@ -54,10 +67,12 @@ header{
 nav{
     padding-block: 10px;
     top: 0;
-}
+    position: relative;
+}   
 
 .nav-bar{
     gap: 35px;
+    
 }
 
 .nav-logo{
@@ -73,6 +88,11 @@ nav{
 }
 
 .nav-links a{
+    color: var(--primary-text-color);
+}
+
+.hamburger{
+    display: none;
     color: var(--primary-text-color);
 }
 
@@ -327,6 +347,7 @@ nav{
 
 /* service end */
 
+
 /* placement part start  */
 
 .placement-container{
@@ -334,7 +355,7 @@ nav{
 }
 
 .placement-img{
-    margin-top: 3rem;
+    margin-top: 5rem;
     flex-wrap: wrap;
     justify-content: center;
     gap: 45px;
@@ -344,3 +365,147 @@ nav{
 .placement-img img{
     height: 35px;
 }
+
+/* Placement part end  */
+
+
+/* Instrucctor part starts  */
+
+.instructor-img-container{
+    justify-content: center;
+    gap: 1rem;
+    align-items: normal;
+    flex-wrap: wrap;
+}
+
+.instructor-header{
+    margin-block: 5rem;
+    text-align: center;
+}
+
+.instructor-header p{
+    margin-top: 20px;
+    font-size: 19px
+}
+
+.instructor-img-div{
+    width: 300px;
+    background-color: #ffeaec;
+}
+
+.instructor-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.instructor-description{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 14px;
+}
+
+.instructor-description p{
+    font-weight: 900;
+}
+
+/* Instructor section ends  */
+
+
+/* Big separator starts  */
+
+.big-separation-section{
+    margin-block: 3rem;
+    background: rgb(0,212,255);
+background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(17,9,57,1) 0%, rgba(2,0,40,1) 0%, rgba(235,234,244,1) 0%, rgba(255,44,61,0.8885679271708683) 0%, rgba(242,233,234,1) 100%, rgba(250,243,243,0.6252626050420168) 100%, rgba(0,0,96,1) 100%, rgba(136,118,223,1) 100%, rgba(72,37,240,1) 100%);
+    padding-block: 3rem;
+}
+
+.big-separation-container{
+    justify-content: space-between;
+    text-align: center;
+}
+
+/* Big separation end  */
+
+
+/* Course fee start  */
+
+.course-fee-section{
+    margin-top: 5rem;
+}
+
+.course-fee-container{
+    flex-direction: column;
+    gap: 34px;
+    justify-content: center;
+    padding-inline: 1rem;
+}
+
+.course-fee-container p{
+    font-size: 19px;
+}
+
+/* Course fee ends  */
+
+/* faq section starts  */
+
+.faq-header{
+    text-align: center;
+    margin-block: 50px 30px;
+}
+
+.faq-card{
+    border: 1px solid #ff2c3d;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.faq-card p{
+    margin-top: 20px;
+    font-weight: 900;
+    color: grey;
+}
+
+/* faq section ends  */
+
+/* footer starts  */
+
+.footer-section{
+    background-color: #111a2e;
+    color: #94a3b8;
+    padding-block: 5rem 7rem;
+}
+
+.footer-container p{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+/* footer ends  */
+
+/* subfooter section start  */
+
+.sub-footer-section{
+    background-color: #ff2c3d;
+    color: white;
+    padding-block: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.sub-footer-container{
+    text-align: center;
+}
+
+.sub-footer-container a{
+    margin-left: 10px;
+    font-size: 20px;
+    text-decoration: underline;
+    color: white;
+}
+
+
+
+
