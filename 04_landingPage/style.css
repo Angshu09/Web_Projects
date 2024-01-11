@@ -67,7 +67,6 @@ ul li{
     top: 0;
     background-color: var(--main-background-color);
     z-index: 10;
-    position: relative;
 }
 
 
