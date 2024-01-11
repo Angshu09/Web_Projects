@@ -1,0 +1,225 @@
+@media screen and (max-width: 1153px){
+    .syllabus-box{
+        flex-direction: column;
+    }
+
+    .main-form{
+        padding-inline: 0;
+    }
+}
+
+@media screen and (max-width: 1022px){
+    .hero-description h1{
+        font-size: 31px;
+    }
+
+    .hamburger{
+        display: block;
+    }
+
+    .nav-links{
+        position: absolute;
+        left: 0;
+        background-color: #f8f7f0 ;
+        width: 100%;
+        padding-block: 30px;
+        top: -600%;
+        transition: 0.3s ease-in-out;
+    }
+
+    .nav-links ul{
+        flex-direction: column;
+    }
+
+    .active{
+       top: 100%;
+    }
+}
+
+@media screen and (max-width: 920px){
+   .main-hero-area{
+    flex-direction: column;
+
+   }
+
+   .hero-description{
+    width: 100%;
+   }
+
+   .hero-section{
+    overflow: hidden;
+   }
+
+   .hero-image{
+    width: 120vw !important;
+
+   } 
+
+   .hero-image img{
+    position: relative;
+    left: -9%;
+   }
+
+   .container{
+    padding: 0 10px;
+   }
+
+}  
+
+@media screen and (max-width: 824px){
+    .main-form{
+        flex-direction: column-reverse;
+    }
+
+    .main-form-description{
+        width: 100%;
+    }
+
+    .form{
+        width: 100%;
+    }
+
+    .keyfeature-box{
+        margin-inline: 0;
+        flex-direction: column;
+    }
+
+    .keyfeature{
+        max-width: none;
+    }
+
+    .certificate-box{
+        flex-direction: column;
+        margin-inline: 0;
+    }
+
+    .certificate-description{
+        width: 100%;
+    }
+
+    .certificate-image{
+        width: 100%;
+    }
+
+    .combo-box{
+        max-width: none;
+    }
+
+    .choose-box{
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 735px){
+     .img1{
+        display: none;
+     }
+
+     .img2{
+        display: block;
+     }
+   
+}
+
+@media screen and (max-width: 648px){
+     .syllabus-content{
+        flex-direction: column;
+        gap: 10px;
+     }
+
+     .syllabus-content a{
+        width: 100%;
+     }
+
+     .syllabus-box{
+        margin-inline: 0;
+     }
+
+     .syllabus-child{
+        gap: 32px;
+     }
+
+     .choose-header{
+        max-width: none;
+     }
+}
+
+@media screen and (max-width: 568px){
+
+     .fundamental-box{
+        flex-direction: column;
+        gap: 0;
+     }
+
+     .bundle-child{
+        width: 100%;
+     }
+
+     .combo-child{
+        text-align: center;
+     }
+
+     .combo-box{
+        grid-template-columns: 1fr;
+     }
+
+     .main-form-description{
+        grid-template-columns: 1fr;
+        gap: 25px;
+     }
+
+     .logos img{
+        height: 22px;
+     }
+}
+
+
+@media screen and (max-width: 354px){
+
+    h1{
+        font-size: 24px !important;
+    }
+
+    h2{
+        font-size: 21px !important;
+    }
+
+    h3{
+        font-size: 17px !important;
+    }
+
+    h4{
+        font-size: 15px !important;
+    }
+
+    p{
+        font-size: 13px !important;
+    }
+
+    ul li{
+        font-size: 13px !important;
+    }
+
+    .roadmap-offer a{
+        padding: 11px !important;
+     }
+
+     .hero-description-button{
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+     }
+
+     .hero-description-button a{
+        margin: 0;
+        padding: 10px !important;
+     }
+}
+
+@media screen and (max-width: 262px){
+    .nav-btn{
+        padding: 10px !important;
+        font-size: 12px;
+    }
+}
