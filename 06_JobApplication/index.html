@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="main-container-heading">
+            <h2>Job Application (Web)</h2>
+        </div>
+
+        <form action="" class="main-form">
+            <div class="box">
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" placeholder="Enter Your First Name" required>
+            </div>
+
+            <div class="box">
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" placeholder="Enter Your Last Name" required>
+            </div>
+
+            <div class="box">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter Your email" required>
+            </div>
+
+            <div class="box">
+                <label for="jobs">Job Role</label>
+                <select name="jobs" id="jobs">
+                    <option value="Full Stack Developer">Full Stack Developer</option>
+                    <option value="Frontend Developer">Frontend Developer</option>
+                    <option value="Backend Developer">Backend Developer</option>
+                    <option value="Data Analyst">Data Analyst</option>
+                </select>
+            </div>
+
+            <div class="box  address-box">
+                <label for="address">Enter Address</label>
+                <textarea name="address" id="address" cols="30" rows="5"></textarea>
+            </div>
+
+            <div class="box">
+                <label for="city">City</label>
+                <input type="text" id="city" placeholder="Enter your city" required>
+            </div>
+
+            <div class="box">
+                <label for="pincode">Pincode</label>
+                <input type="text" id="pincode" placeholder="Enter Your Pincode" required>
+            </div>
+
+            <div class="box">
+                <label for="job-date">Start Date:</label>
+                <input type="date" id="bjob-date" name="job-date">
+            </div>
+
+            <div class="box file-box">
+                <label for="myFile">Upload your CV</label>
+                <input type="file" id="myFile" name="filename">
+            </div>
+
+            <div class="box apply-box">
+                <button>Apply</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
