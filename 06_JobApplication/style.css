@@ -82,4 +82,13 @@ label{
     body{
         padding-inline: 10px;
     }
+
+    .main-container{
+        width: 100%;
+        padding-inline: 5px;
+    }
+
+    .main-container-heading{
+        text-align: center;
+    }
 }
