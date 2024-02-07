@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+input{
+    margin-left: 15px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+label{
+    font-weight: 550;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    background-color: yellow;
+    height: 100vh;
+}
+
+.heading{
+    padding-block: 10px;
+}
+
+.height-div, .weight-div{
+    padding: 30px;
+}
+
+.button-div{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button-div button{
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 550;
+}
