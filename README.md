@@ -14,6 +14,9 @@
 
 <div>
     <ol>
+        <li> <a href="https://angshu09.github.io/Web_Projects/10_Dynamic_Card/">Dynamic Card</a> <span>(HTML, CSS & JS)</span>
+            <p>This website is a simple Dynamic card. When you click on the button the card will appear.</p>
+        </li>
         <li> <a href="https://angshu09.github.io/Web_Projects/09_Digital_Clock/">Digital Clock</a> <span>(HTML, CSS & JS)</span>
             <p>This website is a simple digital clock. I created it for my practice</p>
         </li>
