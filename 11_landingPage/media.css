@@ -1,0 +1,80 @@
+@media screen and (max-width: 900px){
+    .founder-description{
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .des-box{
+        width: 100%;
+    }
+
+    .des-box-image{
+        height: 400px;
+    }
+
+    .why-points{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .ctaDiv{
+        flex-direction: column;
+    }
+
+    .offer{
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid rgb(78, 78, 36) ;
+        border-right: none;
+    }
+
+    .offer-button{
+        width: 100%;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 662px){
+    .why-points{
+        grid-template-columns: 1fr;
+    }
+
+    .navbar-content{
+        flex-direction: column;
+    }
+
+    .nav-links{
+        justify-content: center;
+    }
+
+    .search-box{
+        top: 38%;
+    }
+
+    .search-box input{
+        width: 100%;
+    }
+
+    .search-box h1{
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 469px){
+    .formDiv{
+        width: auto;
+        margin-right: 8px;
+    }
+
+    .offer{
+        padding: 15px;
+    }
+
+    .offer-button{
+        padding: 17px;
+    }
+
+    .footerDiv{
+        padding: 13px;
+    }
+}

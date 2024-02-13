@@ -1,0 +1,343 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'General Sans', sans-serif;
+}
+
+body{
+    position: relative;
+}
+.yellow{
+    color: rgb(211, 211, 72);
+}
+
+.grey{
+    color: rgb(60, 60, 60);
+}
+
+.hero-section{
+    overflow: hidden;
+}
+
+.heroDiv{
+    height: 100vh;
+    width: 100vw;
+    background: url(hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   position: relative;
+}
+
+.black-box{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    opacity: 0.4;
+}
+
+.navbar {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 20; 
+  }
+  
+  .navbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 85vw;
+    margin: auto;
+  }
+  
+  .logo img {
+    width: 120px;
+  }
+
+  .nav-links{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 550;
+    font-size: 18px;
+  }
+
+  .search-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    z-index: 20;
+    width: 100%;
+    top: 50%;
+    gap: 30px;
+    padding-inline: 20px;
+    text-align: center;
+    color: white;
+  }
+
+  .search-box h1{
+    font-size: 3rem;
+    font-weight: 800;
+  }
+
+  .search-box input{
+    background-color: rgba(227, 227, 227, 0.114); 
+    backdrop-filter: blur(10px);
+    color: white;
+    padding: 12px 80px 12px 12px;
+    border: 1px solid white;
+    border-radius: 9px;
+    width: 500px;
+  }
+
+  .search-box input::placeholder{
+    color: white;
+  }
+
+  .founder-div{
+    max-width: 85vw;
+    margin: auto;
+  }
+
+  .heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-block: 50px;
+    text-align: center;
+  }
+
+  .heading h1{
+    font-size: 45px;
+    margin-bottom: 20px;
+  }
+
+  .founder-description{
+    display: flex;
+    gap: calc(100% - 98%);
+  }
+
+  .des-box-image{
+    background: url(founder.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .des-box-text{
+     background-color: rgb(234, 234, 174);;
+  }
+
+  .des-box{
+    width: 50%;
+    padding: 40px;
+    border-radius: 15px;
+  }
+
+  .des-ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .des-ul li{
+    list-style: none;
+  }
+
+  .whyDiv{
+    max-width: 85vw;
+    margin: auto;
+  }
+
+  .whyTitle{
+    text-align: center;
+    padding-block: 60px;
+    
+  }
+
+  .whyTitle h1{
+    font-size: 45px;
+  }
+
+  .why-points{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+  }
+
+  .why-box{
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+  .why-box p{
+    margin-top: 12px;
+  }
+
+  .timer-section{
+    background-color: rgb(234, 234, 174);
+    margin-top: 50px;
+  }
+
+  .timerDiv{
+    width: 85vw;
+    margin: auto;
+    padding-block: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .timer-info{
+    font-size: 22px;
+    font-weight: 550;
+    text-align: center;
+  }
+
+  .clock{
+    font-size: 26px;
+  }
+
+  .timer-button button{
+    padding: 20px 35px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(33, 33, 23);
+    font-size: 20px;
+    font-weight: 550;
+  }
+
+  .cta-section{
+    margin-block: 60px;
+  }
+
+  .ctaDiv{
+    width: 85vw;
+    margin: auto;
+    display: flex;
+    background-color: rgb(234, 234, 174);
+    margin-top: 60px;;
+    border-radius: 10px;
+    border: 1px solid rgb(78, 78, 36) ;
+  }
+
+  .offer{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 50px;
+    border-right: 1px solid rgb(78, 78, 36) ;
+  }
+
+  .offer ul li{
+    list-style: none;
+    margin-bottom: 10px;
+  }
+
+  .offer-button{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  .offer-button button{
+    padding: 20px 40px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(33, 33, 23);
+    font-size: 18px;
+    font-weight: 550;
+  }
+
+  .footer-section{
+    background-color: rgba(222, 212, 27, 0.881);
+  }
+
+  .footerDiv{
+    width: 85vw;
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+    text-align: center;
+  }
+
+  .formDiv{
+    padding: 25px;
+    background-color: rgb(234, 234, 174);
+    width: 450px;
+    border-radius: 10px;
+    position: fixed;
+    left: 2%;
+    bottom: -155%;
+    z-index: 30;
+    transition: 1s ease-in-out;
+    box-shadow: 0px 2px 20px rgba(54, 53, 53, 0.47);
+  }
+
+  #cross{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+  }
+
+  .formDiv.active{
+    bottom: 5%;
+  }
+
+  .form-heading{
+    padding-block: 20px;
+    text-align: center;
+  }
+
+  .form-heading h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+
+  .input-fields  input{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 9px;
+    font-size: 18;
+  }
+
+  .form-button button{
+    width: 100%;
+    padding: 15px;
+    border-radius: 9px;
+    border: none;
+    font-size: 18px;
+    font-weight: 550;
+    margin-bottom: 20px;
+    color: white;
+    background-color: rgb(33, 33, 23);
+  }
+
+  
+
+  
+   
