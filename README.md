@@ -14,6 +14,9 @@
 
 <div>
     <ol>
+        <li> <a href="https://angshu09.github.io/Web_Projects/11_landingPage/">Food Landing Page</a> <span>(HTML, CSS & JS)</span>
+            <p>This is a responsive food web site. Here I implement a 10min countdown and a dynamic form that appears after 10seconds. You can check out the page from the given link.</p>
+        </li>
         <li> <a href="https://angshu09.github.io/Web_Projects/10_Dynamic_Card/">Dynamic Card</a> <span>(HTML, CSS & JS)</span>
             <p>This website is a simple Dynamic card. When you click on the button the card will appear.</p>
         </li>
