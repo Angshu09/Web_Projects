@@ -5,12 +5,18 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    color: white;
+    
+}
+
+h1{
+    font-size: 3rem;
 }
 
 body{
     background-color: #131212;
+    color: #c6c2c2;
 }
+
 
 .flex{
     display: flex;
@@ -45,7 +51,9 @@ body{
 .nav-container ul li a{
     text-decoration: none;
     position: relative;
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: 550;
+    color: #c6c2c2;
 }
 
 .nav-container ul li a::after{
@@ -82,12 +90,124 @@ body{
     padding-inline-start: 30px;
 }
 
-.hero-text h1{
-    font-size: 50px;
-}
-
 .hero-text p{
     font-size: 18px;
 }
 
+/* -------------About------------- */
+
+.about{
+    padding: 70px 0;
+}
+
+.about-container{
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.about-image{
+    flex-basis: 35%;
+}
+
+.about-image img{
+    width: 100%;
+    border-radius: 20px
+}
+
+.about-text{
+    flex-basis: 50%;
+}
+
+
+.about-text p{
+    font-size: 13px;
+}
+
+.about-tabs{
+    margin: 20px 0 25px;
+    gap: 20px;
+}
+
+.tabs{
+    font-weight: 550;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+
+}
+
+.tabs::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    left: 0;
+    bottom: -6px;
+    background-color: #d8a927;
+    position: absolute;
+    transition: 0.5s;
+}
+
+.tabs.active::after{
+    width: 100%;
+}
+
+.tabs-content ul li{
+    list-style: none;
+    margin: 10px 0;
+    font-size: 15px;
+}
+
+.tabs-content{
+    display: none;
+}
+
+.active-content{
+    display: block;
+}
+
+/* ----------------work-------------- */
+
+.work-container{
+    padding-inline: 55px;
+}
+
+.work-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    grid-gap: 30px;
+    margin-top: 30px;
+}
+
+.work-list div{
+    background-color: rgb(43, 43, 43);
+    padding: 30px;
+    border-radius: 15px;
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+    transition: 0.5s;
+}
+
+.work-list div i{
+    font-size: 40px;
+}
+
+.work-list div p{
+    font-size: 13px;
+    font-weight: 550;
+}
+
+.work-list div h2{
+    font-size: 1.6rem;
+}
+
+.work-list div p i{
+    font-size: unset;
+}
+
+.work-list div:hover{
+    background-color: #d8a927;
+    color: black ;
+    transform: translateY(-10px);
+}
 
