@@ -16,3 +16,22 @@ Array.from(tabs).forEach(function(e) {
       document.getElementById(`${e.innerHTML}`).classList.add('active-content')
     });
 });
+
+const workCard = document.querySelectorAll('.work-list>div')
+workCard.forEach((e)=>{
+  e.addEventListener('click', ()=>{
+    console.log(e.innerHTML);
+    const h2 = e.querySelector('h2');
+  
+    if(h2.innerHTML.toLowerCase() === "web development" ){
+      window.open("https://github.com/Angshu09/Web_Projects", "_blank");
+    }
+    else if(h2.innerHTML.toLowerCase() === "java"){
+      window.open("https://github.com/Angshu09/revise_DSA");
+    }
+    else if(h2.innerHTML.toLowerCase() === "javascript"){
+      window.open("https://github.com/Angshu09/JavaScript");
+    }
+  })
+})
+console.log(workCard);

@@ -17,7 +17,6 @@ body{
     color: #c6c2c2;
 }
 
-
 .flex{
     display: flex;
 }
@@ -107,6 +106,8 @@ body{
 
 .about-image{
     flex-basis: 35%;
+    display: flex;
+    align-items: center;
 }
 
 .about-image img{
@@ -173,7 +174,7 @@ body{
 
 .work-list{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 30px;
     margin-top: 30px;
 }
@@ -186,6 +187,7 @@ body{
     display: flex;
     flex-direction: column;
     transition: 0.5s;
+    cursor: pointer;
 }
 
 .work-list div i{
@@ -211,3 +213,157 @@ body{
     transform: translateY(-10px);
 }
 
+/* ----------------Project---------------- */
+
+.project{
+    padding: 60px 0;
+}
+
+.project-container{
+    padding: 0 55px;
+}
+
+.project-img{
+    width: 100%;
+    overflow: hidden;
+}
+
+.project-img img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.project-description{
+    width: 100%;
+    padding: 25px 15px;
+    height: 230px;
+}
+
+
+.project-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 30px;
+    margin-top: 30px;
+}
+
+.project-card{
+    background-color: rgb(43, 43, 43);
+    padding: 10px;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.project-card:hover{
+    transform: translateY(-10px);
+}
+
+.project-description p{
+    font-size: 12px;
+    font-weight: 550;
+    margin-top: 15px;
+}
+
+.project-button{
+    width: 100%;
+}
+
+.project-button a{
+    text-decoration: none;
+    background-color: #d8a927;
+    color: black;
+    font-weight: 600;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.project-button a:hover{
+    background-color: #131212;
+    color: #d8a927;
+}
+
+/* ----------------Contact---------------- */
+
+.contact{
+    padding: 50px 55px;
+}
+
+.contact-container{
+    justify-content: space-between;
+}
+
+.connect-div{
+    flex-basis: 35%;
+}
+
+.connect-div a{
+    text-decoration: none;
+    color: #c6c2c2;
+}
+
+.social-media{
+    margin-top: 15px;
+    gap: 15px;
+}
+
+.contact-icon{
+    font-size: 35px;
+    transition: 0.5s;
+}
+
+.contact-icon:hover{
+    color: #d8a927;
+    font-size: 40px;
+}
+
+.form-div{
+    border: none;
+    flex-basis: 60%;
+    padding: 28px;
+    border-radius: 20px;
+    background-color: rgb(43, 43, 43);
+}
+
+.form-div input, textarea{
+    width: 100%;
+}
+
+.form{
+    flex-direction: column;
+    gap: 18px;
+    font-weight: 600;
+}
+
+
+.form input, textarea{
+    margin-top: 6px;
+    border-radius: 8px;
+    border: none;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 14px;
+    background-color: rgb(66, 66, 66);
+    color: #f4f2f2;
+}
+
+.form button{
+    text-decoration: none;
+    background-color: #d8a927;
+    color: black;
+    font-weight: 600;
+    padding: 12px 60px;
+    border: none;
+    border-radius: 7px;
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
