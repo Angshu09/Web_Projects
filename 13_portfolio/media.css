@@ -25,13 +25,48 @@
     }
 
     .ul{
-        position: absolute;
+        position: fixed;
         right: -200%;
         background-color:#131212;
         width: 60vw;
         height: 100vh;
         top: 0;
         flex-direction: column;
+        z-index: 10;
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+
+
+    .about-container, .work-container, .project-container, .contact{
+        padding-inline: 20px;
+    }
+
+    .signature{
+        width: 130px;
+    }
+
+    .hero-text{
+        padding: 60px 20px 0 20px;
+    }
+
+    .work-list, .project-list {
+      grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+   
+    }
+
+    .nav-container{
+        padding-inline: 10px 0 15px;
+    }
+
+    .form-div{
+        padding: 15px;
+    }
+
+    .work-list div{
+        padding: 18px;
     }
 
 }
