@@ -34,4 +34,13 @@ workCard.forEach((e)=>{
     }
   })
 })
-console.log(workCard);
+
+const hamburger = document.querySelector(".hamburger");
+hamburger.addEventListener('click', ()=>{
+  document.querySelector('.ul').style.right = '0';
+})
+
+const cross = document.querySelector(".cross");
+cross.addEventListener('click', ()=>{
+  document.querySelector('.ul').style.right = '-200%';
+})

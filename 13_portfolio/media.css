@@ -1,0 +1,37 @@
+@media screen and (max-width: 825px){
+    .contact-container{
+        flex-direction: column;
+    }
+    .form-div{
+        flex-basis: 100%;
+    }
+    .connect-div{
+        flex-basis: 100%;
+        margin-bottom: 40px;
+    }
+
+    .about-container{
+        flex-direction: column;
+        gap: 40px;
+        padding-inline: 55px;
+    }
+
+    .hamburger{
+        display: block;
+    }
+
+    .cross{
+        display: block;
+    }
+
+    .ul{
+        position: absolute;
+        right: -200%;
+        background-color:#131212;
+        width: 60vw;
+        height: 100vh;
+        top: 0;
+        flex-direction: column;
+    }
+
+}
