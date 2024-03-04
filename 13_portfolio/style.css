@@ -399,6 +399,11 @@ html{
     transition: 0.5s;
 }
 
+.form button:hover{
+    background-color:#131212;
+    color: #d8a927;
+}
+
 /* ------------Copyrights-------- */
 
 .copyright{

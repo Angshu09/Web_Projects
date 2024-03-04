@@ -44,3 +44,19 @@ const cross = document.querySelector(".cross");
 cross.addEventListener('click', ()=>{
   document.querySelector('.ul').style.right = '-200%';
 })
+
+const scriptURL = 'https://script.google.com/macros/s/AKfycbxbiOK4NNiCQDHigoUS3Nq8-XV_QnjvIFRB82gbluN1Tz99KRpqfn3HSvVTAA8YnDxmBw/exec'
+  const form = document.forms['google-sheet'];
+
+  form.addEventListener('submit', (e) => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then((response) =>{
+        alert("Your message have been sent successfully")
+        form.reset();
+      })
+      .catch((error) => {
+        alert("An error has occurred");
+        form.reset();
+      })
+  })
