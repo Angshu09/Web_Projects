@@ -30,14 +30,10 @@ p{
 
 .container{
     width: 450px;
-    border: 1px solid red;
-    background-color: aqua;
+    background: rgb(0,212,255);
+    background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(235,234,244,1) 0%, rgba(255,44,61,0.8885679271708683) 0%, rgba(136,118,223,1) 0%, rgba(37,27,230,1) 0%, rgba(113,84,252,1) 0%, rgba(236,242,204,1) 100%, rgba(230,231,11,1) 100%, rgba(235,237,174,1) 100%, rgba(210,215,211,1) 100%, rgba(214,241,231,1) 100%, rgba(208,241,218,1) 100%, rgba(227,217,233,1) 100%, rgba(242,200,234,1) 100%, rgba(251,106,118,1) 100%, rgba(242,233,234,1) 100%, rgba(250,243,243,0.6252626050420168) 100%);
     padding: 20px;
     border-radius: 20px;
-}
-
-.search-section{
-    border: 1px solid red;
 }
 
 .search-div{
@@ -46,7 +42,7 @@ p{
 
 
 .search-input{
-    flex-basis: 85%;
+    width: 85%;
     padding: 12px 20px;
     font-size: 16px;
     font-weight: 500;
@@ -56,7 +52,7 @@ p{
 }
 
 .search-btn{
-    flex-basis: 10%;
+    width: 10%;
     text-align: center;
     background: transparent;
     border: none;
@@ -67,8 +63,7 @@ p{
 }
 
 .description-section{
-    border: 1px solid red;
-    padding-block: 30px;
+    padding-block: 15px;
 }
 
 .weather-img{
@@ -77,20 +72,28 @@ p{
 }
 
 .weather-img img{
-    height: 200px;
+    height: 160px;
 }
 
 .description-div{
     width: 100%;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 15px;
 }
 
 .details-section{
     justify-content: space-evenly;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 .humidity, .wind{
     text-align: center;
+}
+
+.humidity img{
+    width: 30px;
+}
+
+.wind img{
+    width: 30px;
 }
