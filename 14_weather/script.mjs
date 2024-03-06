@@ -1,7 +1,5 @@
-require('dotenv').config()
-const apikey = process.env.API_KEY;
-console.log(apikey)
-
+import { getKey } from "./utility.mjs";
+const apikey = getKey();
 async function searchWeather(city){
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apikey}&units=metric`
     try{
