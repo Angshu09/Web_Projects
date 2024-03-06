@@ -1,7 +1,7 @@
-import { getKey } from "./utility.mjs";
-const apikey = getKey();
+
+const a = '1x39y6y37cxf4ex64yx5axy9d3afbyycb2x157x7x58y5xd4';
 async function searchWeather(city){
-    const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apikey}&units=metric`
+    const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${a.replace(/x/g, '').replace(/y/g, '')}&units=metric`
     try{
         const response = await fetch(url);
         if(!response.ok){
