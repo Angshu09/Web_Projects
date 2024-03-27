@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: rgb(0,212,255);
+    background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(235,234,244,1) 0%, rgba(136,118,223,1) 0%, rgba(37,27,230,1) 0%, rgba(250,121,134,1) 0%, rgba(255,44,61,0.8885679271708683) 0%, rgba(232,232,169,1) 100%, rgba(240,239,239,0.6252626050420168) 100%, rgba(236,242,204,1) 100%, rgba(235,237,174,1) 100%, rgba(210,215,211,1) 100%, rgba(214,241,231,1) 100%, rgba(208,241,218,1) 100%, rgba(227,217,233,1) 100%, rgba(242,200,234,1) 100%, rgba(251,106,118,1) 100%, rgba(242,233,234,1) 100%);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 18px;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.heading{
+    text-align: center;
+}
+
+.button{
+    text-align: center;
+}
+
+.button button{
+    outline: none;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 12px 22px;
+    border-radius: 12px;
+    border: none;
+    background-color: #f0d2d2;
+    transition: 0.2s;
+}
+
+.button button:hover{
+    background-color: #dd5858;
+}
+
+.description{
+    text-align: center;
+}
+
+.image{
+    text-align: center;
+}
+
+.image img{
+    height: 450px;
+}
+
+@media screen and (max-width: 495px){
+    .image img {
+        height:320px;
+    }
+}
+
+@media screen and (max-width: 344px){
+    .image img {
+        height:200px;
+    }
+
+    .button button{
+        font-size: 14px;
+    }
+
+    h1{
+       font-size: 18px;
+    }
+
+    h2{
+        font-size: 14px;
+    }
+}
