@@ -14,6 +14,15 @@
 
 <div>
     <ol>
+        <li> <a href="https://angshu09.github.io/Web_Projects/17_meme_generator/">Meme Generator</a> <span>(HTML, CSS & JS)</span>
+            <p> It is a simple meme generator where if you click the button then it will create a new meme. Actually the meme is coming from an API. </p>
+        </li>
+        <li> <a href="https://angshu09.github.io/Web_Projects/16_calculator/">simple calculator</a> <span>(HTML, CSS & JS)</span>
+            <p>a simple calculator.</p>
+        </li>
+        <li> <a href="https://angshu09.github.io/Web_Projects/15_email_validator/">Email validator</a> <span>(HTML, CSS & JS)</span>
+            <p> an email validator utilizing HTML, CSS, and JavaScript, powered by an API for seamless data fetching. Ensuring efficient and reliable email verification in just a few lines of code. You can write any email and  it will provide the information regarding it.</p>
+        </li>
         <li> <a href="https://angshu09.github.io/Web_Projects/14_weather/">Weather app</a> <span>(HTML, CSS & JS)</span>
             <p>Introducing my weather app - your go-to source for real-time weather updates! Fetching data from a reliable API, this app dynamically displays current weather conditions for any location.</p>
         </li>
